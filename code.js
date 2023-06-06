@@ -12,9 +12,16 @@ function sayHello(input) {
     }
 }
 
-
-// code.js
 function isFive(input) {
     return Number(input) === 5;
 }
+
+// code.js
+function isEven(input) {
+    if (typeof input === "number") {
+        return input % 2 === 0;
+    }
+    return false;
+}
+
 
